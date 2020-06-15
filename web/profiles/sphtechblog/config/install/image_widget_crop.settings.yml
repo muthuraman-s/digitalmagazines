@@ -11,3 +11,5 @@ settings:
   notify_apply: true
   notify_update: true
   show_crop_area: true
+_core:
+  default_config_hash: UYGkeE2iH3UGp9lBPsELb3VSgHz9vkMJeaGzcYwE7Uw

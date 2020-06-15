@@ -5,32 +5,64 @@ core: 8.x
 
 # Modules to install to support the profile.
 install:
-  - history
+  - admin_toolbar
+  - admin_toolbar_links_access_filter
+  - admin_toolbar_tools
+  - automated_cron
+  - big_pipe
+  - block
   - block_content
   - breakpoint
+  - ckeditor
   - color
-  - config
   - comment
-  - contextual
+  - config
   - contact
-  - quickedit
-  - help
-  - image
-  - options
-  - path
-  - taxonomy
+  - contextual
+  - crop
+  - ctools
+  - datetime
   - dblog
-  - search
-  - shortcut
-  - toolbar
+  - devel
+  - devel_generate
+  - dynamic_page_cache
+  - editor
+  - field
+  - field_group
   - field_ui
   - file
+  - filter
+  - help
+  - history
+  - image
+  - image_widget_crop
+  - kint
+  - link
+  - media
+  - media_entity_file_replace
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - path_alias
+  - quickedit
   - rdf
-  - views
+  - search
+  - shortcut
+  - system
+  - taxonomy
+  - text
+  - token
+  - toolbar
+  - tour
+  - unique_entity_title
+  - user
   - views_ui
-  - editor
-  - ckeditor
-  
+  - pathauto
+  - views
+
 # List any themes that should be installed as part of the profile installation.
 # Note that this will not set any theme as the default theme.
 themes:

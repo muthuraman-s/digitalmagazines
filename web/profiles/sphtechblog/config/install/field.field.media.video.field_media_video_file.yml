@@ -1,3 +1,4 @@
+uuid: 7c3dfe43-e749-49af-aa22-2668b45b2492
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - media.type.video
   module:
     - file
+_core:
+  default_config_hash: OA1qtcEH8xxQhIPvf4TykZOp1MqSTA1R4HoWxbcWZD0
 id: media.video.field_media_video_file
 field_name: field_media_video_file
 entity_type: media

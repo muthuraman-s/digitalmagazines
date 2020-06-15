@@ -1,6 +1,9 @@
+uuid: e75b697c-a3ad-4293-9ea9-292b461e6a06
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: cCiWdBHgLwj5omG35lsKc4LkW4MBdmcctkVop4ol5x0
 name: thumbnail
 label: 'Thumbnail (100×100)'
 effects:
