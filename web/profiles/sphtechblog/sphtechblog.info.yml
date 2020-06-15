@@ -1,6 +1,6 @@
-name: sphtechblog
+name: SPHTechBlog
 type: profile
-description: 'Custom Profile for SPHTechBlog'
+description: 'Custom distribution for SPH Technology Blog'
 core: 8.x
 
 # Modules to install to support the profile.
@@ -68,3 +68,4 @@ install:
 themes:
   - bartik
   - seven
+  - sphtechblog
