@@ -1,7 +1,6 @@
-uuid: ''
-name: ''
-mail: ''
-slogan: ''
+name: 'SPHTech Blog'
+mail: admin@example.com
+slogan: 'SPH Technology blog talks about trending topic'
 page:
   403: ''
   404: ''

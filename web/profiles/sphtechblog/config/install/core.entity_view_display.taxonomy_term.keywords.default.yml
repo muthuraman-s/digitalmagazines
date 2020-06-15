@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.keywords
+  module:
+    - text
+id: taxonomy_term.keywords.default
+targetEntityType: taxonomy_term
+bundle: keywords
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_trimmed
+    weight: 0
+    region: content
+    settings:
+      trim_length: 300
+    third_party_settings: {  }
+hidden: {  }

@@ -1,4 +1,3 @@
-uuid: c02a483e-a84c-4375-b8b1-1f8e90450141
 langcode: en
 status: true
 dependencies:
@@ -11,11 +10,11 @@ third_party_settings:
       - main
     parent: 'main:'
   unique_entity_title:
-    enabled: true
+    enabled: false
 name: Author
 type: author
 description: 'SPHTechBlog <strong>Author</strong> information will be captured in this form.'
-help: 'Internal Author Unique Reference'
+help: ''
 new_revision: true
 preview_mode: 1
 display_submitted: true

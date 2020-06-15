@@ -3,13 +3,13 @@ settings:
   css_url: 'https://cdnjs.cloudflare.com/ajax/libs/cropper/4.0.0/cropper.min.css'
   crop_preview_image_style: crop_thumbnail
   crop_list:
+    blog_picture: blog_picture
     profile_crop: profile_crop
   crop_types_required:
+    blog_picture: blog_picture
     profile_crop: profile_crop
   warn_multiple_usages: false
   show_default_crop: true
-  notify_apply: true
+  notify_apply: false
   notify_update: true
-  show_crop_area: true
-_core:
-  default_config_hash: UYGkeE2iH3UGp9lBPsELb3VSgHz9vkMJeaGzcYwE7Uw
+  show_crop_area: false

@@ -1,4 +1,3 @@
-uuid: 9a425ac5-4524-4166-8e79-bf57518d10bd
 langcode: en
 status: true
 dependencies:
@@ -7,10 +6,9 @@ dependencies:
     - field.field.node.blog.field_byline
     - field.field.node.blog.field_keywords
     - field.field.node.blog.field_photo
-    - image.style.blog_picture
     - node.type.blog
   module:
-    - image
+    - imagefield_slideshow
     - text
     - user
 id: node.blog.default
@@ -21,20 +19,21 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     region: content
   field_byline:
-    weight: 104
-    label: above
+    weight: 1
+    label: hidden
     settings:
-      link: true
+      view_mode: teaser
+      link: false
     third_party_settings: {  }
-    type: entity_reference_label
+    type: entity_reference_entity_view
     region: content
   field_keywords:
-    weight: 103
+    weight: 4
     label: above
     settings:
       link: true
@@ -42,16 +41,21 @@ content:
     type: entity_reference_label
     region: content
   field_photo:
-    weight: 102
-    label: above
+    weight: 2
+    label: visually_hidden
     settings:
-      image_style: blog_picture
-      image_link: ''
+      imagefield_slideshow_style: blog_picture
+      imagefield_slideshow_style_effects: none
+      imagefield_slideshow_style_pause: 'false'
+      imagefield_slideshow_prev_next: '1'
+      imagefield_slideshow_transition_speed: '6000'
+      imagefield_slideshow_timeout: '100'
+      imagefield_slideshow_pager: 0
     third_party_settings: {  }
-    type: image
+    type: imagefield_slideshow_field_formatter
     region: content
   links:
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }

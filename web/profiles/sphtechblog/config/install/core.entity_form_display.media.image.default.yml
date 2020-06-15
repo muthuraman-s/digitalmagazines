@@ -1,4 +1,3 @@
-uuid: f89d04cc-3560-4d11-ae33-a26374813970
 langcode: en
 status: true
 dependencies:
@@ -9,8 +8,6 @@ dependencies:
   module:
     - image
     - path
-_core:
-  default_config_hash: WeM0d1VqhuyGELo4SRiDJfhDQSLqfKavISEbrnlcTaE
 id: media.image.default
 targetEntityType: media
 bundle: image
@@ -55,3 +52,4 @@ content:
     third_party_settings: {  }
 hidden:
   name: true
+  replace_file: true

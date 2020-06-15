@@ -1,4 +1,3 @@
-uuid: e3c24537-dfd7-4f3c-912e-5168424b4269
 langcode: en
 status: true
 dependencies:
@@ -8,8 +7,6 @@ dependencies:
     - image
     - media
     - user
-_core:
-  default_config_hash: UZP23LgBdE1XbvscbLCdd9uTk5t4qqA1Z56koqbvYP0
 id: media
 label: Media
 module: views

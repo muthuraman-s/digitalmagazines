@@ -2,7 +2,7 @@ name: SPHTechBlog
 type: profile
 description: 'Custom distribution for SPH Technology Blog'
 core: 8.x
-
+weight: -10
 # Modules to install to support the profile.
 install:
   - admin_toolbar
@@ -36,6 +36,7 @@ install:
   - history
   - image
   - image_widget_crop
+  - imagefield_slideshow
   - kint
   - link
   - media

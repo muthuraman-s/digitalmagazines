@@ -1,4 +1,3 @@
-uuid: b79ae9b9-2cd2-488c-b1ac-17e02182dad3
 langcode: en
 status: true
 dependencies:
@@ -9,31 +8,35 @@ dependencies:
     - field.field.node.author.field_e_mail_address
     - field.field.node.author.field_full_name
     - field.field.node.author.field_profile_photo_
+    - image.style.crop_thumbnail
     - node.type.author
   module:
-    - text
+    - image
     - user
 id: node.author.teaser
 targetEntityType: node
 bundle: author
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
+  field_e_mail_address:
+    type: basic_string
+    weight: 1
     region: content
-  links:
-    weight: 100
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+  field_profile_photo_:
+    type: image
+    weight: 0
     region: content
+    label: hidden
+    settings:
+      image_style: crop_thumbnail
+      image_link: content
+    third_party_settings: {  }
 hidden:
+  body: true
   field_designation: true
-  field_e_mail_address: true
   field_full_name: true
-  field_profile_photo_: true
+  links: true
   search_api_excerpt: true

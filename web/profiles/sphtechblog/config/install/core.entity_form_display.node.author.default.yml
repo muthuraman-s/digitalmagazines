@@ -1,4 +1,3 @@
-uuid: 4d01ab48-7d32-4864-a840-faee82186f15
 langcode: en
 status: true
 dependencies:
@@ -49,20 +48,9 @@ content:
     third_party_settings: {  }
     type: email_default
     region: content
-  field_full_name:
-    weight: 1
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_profile_photo_:
     weight: 5
     settings:
-      show_crop_area: true
-      show_default_crop: true
-      warn_multiple_usages: true
       preview_image_style: crop_thumbnail
       crop_preview_image_style: large
       crop_list:
@@ -70,6 +58,9 @@ content:
       crop_types_required:
         - profile_crop
       progress_indicator: throbber
+      show_crop_area: false
+      show_default_crop: false
+      warn_multiple_usages: false
     third_party_settings: {  }
     type: image_widget_crop
     region: content
@@ -118,4 +109,5 @@ content:
       match_limit: 10
     region: content
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_full_name: true
