@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.profile_crop
+  module:
+    - crop
+name: crop_thumbnail
+label: 'Crop thumbnail'
+effects:
+  e9b3fa0e-1051-48de-9e7c-2f5d936fa728:
+    uuid: e9b3fa0e-1051-48de-9e7c-2f5d936fa728
+    id: crop_crop
+    weight: 2
+    data:
+      crop_type: profile_crop
+  930614d9-7217-463a-a302-d15d8f4a8543:
+    uuid: 930614d9-7217-463a-a302-d15d8f4a8543
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 60
+      height: 70
+      anchor: left-top

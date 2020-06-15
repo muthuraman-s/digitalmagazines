@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.blog_picture
+  module:
+    - crop
+name: blog_picture
+label: 'Blog Picture'
+effects:
+  9f37bdc1-0c63-46a0-8afe-0682de584f97:
+    uuid: 9f37bdc1-0c63-46a0-8afe-0682de584f97
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: blog_picture
+  29ef39ca-80a4-4d6b-b7a0-8572431a9c0b:
+    uuid: 29ef39ca-80a4-4d6b-b7a0-8572431a9c0b
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 450
+      height: 300
+      anchor: center-center

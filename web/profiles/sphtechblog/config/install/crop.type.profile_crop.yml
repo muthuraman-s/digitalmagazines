@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: profile_crop
+label: 'Profile Crop'
+description: 'SPHTechBlog Author Profile Crop'
+aspect_ratio: ''
+soft_limit_width: 60
+soft_limit_height: 70
+hard_limit_width: 60
+hard_limit_height: 70
